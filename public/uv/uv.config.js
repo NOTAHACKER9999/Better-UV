@@ -1,7 +1,7 @@
 /*global Ultraviolet*/
 self.__uv$config = {
-    prefix: "/uv/",
-    bare: "/b/",
+    prefix: "/uv/service/",
+    bare: "https://better-uv.vercel.app/",
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: "/uv/uv.handler.js",
